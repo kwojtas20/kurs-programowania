@@ -1,8 +1,8 @@
 package pl.com.kurs.lekcja25;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
 
-    public void idz(){
+    public void idz() {
         System.out.println("Idę sobie");
     }
 

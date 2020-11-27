@@ -1,7 +1,6 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja20;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 
@@ -11,10 +10,9 @@ public class Lekcja20 {
         lista.add("Poznań");
         lista.add("Warszawa");
         lista.remove(0);
-//        for (String e : lista) {
-//            System.out.println(e);
-//
-//        }
+        for (String e : lista) {
+           System.out.println(e);
+        }
         lista.clear();
 
         HashMap<Integer, String> mapa = new HashMap<>();

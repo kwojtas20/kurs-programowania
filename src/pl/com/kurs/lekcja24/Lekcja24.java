@@ -9,8 +9,6 @@ public class Lekcja24 {
 
         System.out.println("Subaru:");
         SamochodSportowy subaru = new SamochodSportowy("Subaru", 4, 4);
-
-
     }
 }
 

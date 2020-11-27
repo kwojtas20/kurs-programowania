@@ -6,7 +6,9 @@ import java.util.Formatter;
 import java.util.Scanner;
 
 public class Lekcja33 {
+
     public static void main(String[] args) {
+
         File f = new File("plik.txt");
         if (!f.exists()) {
             try {
@@ -16,7 +18,8 @@ public class Lekcja33 {
                 System.out.println(e.getMessage());
             }
         }
-        if(f.canWrite()){
+
+        if (f.canWrite()) {
             try {
                 FileWriter fw = new FileWriter(f, true);
                 Formatter fm = new Formatter(fw);
@@ -32,13 +35,13 @@ public class Lekcja33 {
                 fw.close();
 
                 System.out.println("\nZAWARTOŚĆ PLIKU:");
-                while(sf.hasNextLine()){
+                while (sf.hasNextLine()) {
                     System.out.println(sf.nextLine());
                 }
                 sc.close();
                 sf.close();
 
-            }catch(Exception e){
+            } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
         }

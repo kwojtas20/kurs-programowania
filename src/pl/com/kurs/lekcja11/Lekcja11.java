@@ -1,4 +1,4 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja11;
 
 public class Lekcja11 {
     public static void main(String[] args) {

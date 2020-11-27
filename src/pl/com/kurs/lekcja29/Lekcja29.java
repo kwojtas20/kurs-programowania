@@ -1,10 +1,14 @@
 package pl.com.kurs.lekcja29;
 
 public class Lekcja29 {
+
     public static void main(String[] args) {
-//        klasa anominowa bo w ciele Animal zmieniamy to co ma się pojawić jest to tylko w tym jednym przypadku,
-//        poza jak tego użyjemy bez nawiasó pojwią nam się dane z Animal
+/**
+ * klasa anominowa bo w ciele Animal zmieniamy to co ma się pojawić jest to tylko w tym jednym przypadku,
+ *  poza jak tego użyjemy bez nawiasów pojawią nam się dane z Animal
+ */
         Animal cat = new Animal() {
+
             @Override
             void makeVoice() {
                 System.out.println("Meowwww");

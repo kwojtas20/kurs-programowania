@@ -1,4 +1,4 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja5;
 
 public class Lekcja5 {
     public static void main(String[] args) {
@@ -11,6 +11,10 @@ public class Lekcja5 {
             System.out.println("Nie możesz jeszcze nic!");
         }
 
+        /**
+         * warunek: jeśli wiek jest wiekszy równy(prawda - ?) 18 to "Bartek", jeśli nie (fałsz - :) to "Bartuś"
+         * - ternary operator
+         */
         String imie = wiek >=18 ? "Bartek" : "Bartuś";
         System.out.println(imie);
     }

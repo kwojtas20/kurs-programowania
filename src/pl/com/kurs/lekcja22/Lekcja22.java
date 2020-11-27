@@ -1,14 +1,14 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja22;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Stack;
 
 public class Lekcja22 {
-    public static void main(String[] args) {
-//        usuwanie koleki id pierwszego do ostatniego
-        Queue<String> kolejka = new ArrayDeque<>();
 
+    public static void main(String[] args) {
+//        usuwanie kolekcji id pierwszego do ostatniego
+        Queue<String> kolejka = new ArrayDeque<>();
 
         kolejka.add("Pierwszy");
         kolejka.add("Drugi");
@@ -19,10 +19,13 @@ public class Lekcja22 {
         System.out.println(kolejka.peek());
 //      usuwa pierwszy z kolejki
         System.out.println(kolejka.remove());
-//        usuwa pierwszy z kolejki, zwraca rónież wyjątek, jełśi nic nie ma pokaże null
+//        usuwa pierwszy z kolejki, zwraca rónież wyjątek, jeśli nic nie ma pokaże null
         System.out.println(kolejka.poll());
+        // usuwa pierwszy z kolejki
         System.out.println(kolejka.remove());
+        //sprawdza rozmiar
         System.out.println(kolejka.size());
+        //        usuwa pierwszy z kolejki, zwraca rónież wyjątek, jeśli nic nie ma pokaże null
         System.out.println(kolejka.poll());
 
         System.out.println("\n\nStos:");
@@ -37,7 +40,5 @@ public class Lekcja22 {
         System.out.println(stos.pop());
         stos.push("Ostatni");
         System.out.println(stos.pop());
-
-
     }
 }

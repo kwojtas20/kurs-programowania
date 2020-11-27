@@ -24,5 +24,4 @@ public class Uczen {
             this.ocena = ocena;
         }
     }
-
 }

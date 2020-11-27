@@ -1,6 +1,7 @@
 package pl.com.kurs.lekcja23;
 
 public class Lekcja23 {
+
     public static void main(String[] args) {
         Samochod audi = new Samochod();
         audi.iloscKol = 4;

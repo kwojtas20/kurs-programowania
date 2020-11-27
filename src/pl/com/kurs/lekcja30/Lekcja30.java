@@ -1,6 +1,7 @@
 package pl.com.kurs.lekcja30;
 
 public class Lekcja30 {
+
     public static void main(String[] args) {
 
 //        sposób 1
@@ -15,7 +16,5 @@ public class Lekcja30 {
 
         ob1.start();
         ob2.start();
-
-
     }
 }

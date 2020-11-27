@@ -1,4 +1,4 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja2;
 
 /**
  * Typy danych.
@@ -41,7 +41,5 @@ public class Lekcja2 {
 
         int liczba = 356;
         liczba = zmByte;
-
-
     }
 }

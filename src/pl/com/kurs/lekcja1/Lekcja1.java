@@ -1,4 +1,4 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja1;
 
 import java.util.Scanner;
 
@@ -7,13 +7,10 @@ public class Lekcja1 {
 
         Scanner scanner = new Scanner(System.in);
 
-
         String name;
         System.out.print("Podaj swoje imię: ");
         name = scanner.nextLine();
         System.out.printf("Hello %s", name);
-
-
     }
 
 //    public void napiszDupa() {

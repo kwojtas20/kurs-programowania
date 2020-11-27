@@ -1,4 +1,4 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja8;
 
 import java.util.Random;
 import java.util.Scanner;

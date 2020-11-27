@@ -1,15 +1,14 @@
 package pl.com.kurs.lekcja26;
 
 
-import jdk.jshell.Diag;
-
 public class Lekcja26 {
+
     public static void main(String[] args) {
         Animal kot = new Cat();
         kot.dajGlos();
 //        Animal pies = new Dog("");
 //        pies.dajGlos();
-//
+
 //        System.out.println(pies instanceof Cat);
 //        if (pies instanceof Cat) {
 //            ((Cat) pies).idz();
@@ -17,6 +16,7 @@ public class Lekcja26 {
 //        if (pies instanceof Dog) {
 //            ((Dog) pies).idz();
 //        }
+
         // tylko spróbuj - try
         try {
             Animal pies = new Dog("");

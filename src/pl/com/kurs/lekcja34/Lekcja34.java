@@ -1,9 +1,12 @@
-package pl.com.kurs;
+package pl.com.kurs.lekcja34;
 
 public class Lekcja34 {
+
     //    rekrurencja - odwołanie się do samego siebie
     public static void main(String[] args) {
+
         final int LICZBA = 10;
+
         long start = System.nanoTime();
         System.out.println(silnia(LICZBA));
         long elapsed = System.nanoTime() - start;
@@ -15,7 +18,6 @@ public class Lekcja34 {
         System.out.println(silniaRek(LICZBA));
         elapsed = System.nanoTime() - start;
         System.out.println("Czas: " + elapsed);
-
     }
 
     private static long silniaRek(int x) {

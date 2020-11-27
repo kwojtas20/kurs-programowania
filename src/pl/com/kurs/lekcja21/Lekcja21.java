@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Lekcja21 {
+
     public static void main(String[] args) {
         ArrayList<String> lista = new ArrayList<>();
         lista.add("Poznań");
@@ -15,9 +16,8 @@ public class Lekcja21 {
         for (String e : lista) {
             System.out.println(e);
         }
-
+//        od najmniejszej do największej Spring - alfabetycznie, int -  cyfrowo
         Collections.sort(lista);
-//        od najminiejszej do największej Spring - alfabetycznie, int -  cyfrowo
 
         System.out.println();
         for (String e : lista) {
@@ -30,19 +30,19 @@ public class Lekcja21 {
         System.out.println(Collections.max(lista));
 
         System.out.println();
-        Collections.reverse(lista);
 //        kolekcja od końca do początku
+        Collections.reverse(lista);
         for (String e : lista) {
             System.out.println(e);
         }
 
+//        przetasuj, pomieszaj
         Collections.shuffle(lista);
-//        przekasuj, pomieszaj
         System.out.println();
         for (String e : lista) {
             System.out.println(e);
         }
-        ArrayList<Animal> koty = new ArrayList<Animal>();
+        ArrayList<Animal> koty = new ArrayList<>();
         Animal kot1 = new Animal("Czarny");
         Animal kot2 = new Animal("Bury");
         Animal kot3 = new Animal("Rudy");
